@@ -9,3 +9,5 @@ A numeric button will trigger the function numericButtonPressed, that has the ro
 A function button will trigger the function functionButtonPressed which is responsible of checking what kind of operation the user wanted by looking at the symbol associated with the button that got pressed last: *, -, +, /, C. 
 Then a switch case is used to take care of the execution of the corresponding block of code. Eg. if it was “*” our custom mul() function is called with the necessary parameters for performing a multiplication, and the result is assigned as the new value for the result input (aka our fake display above the buttons)                                                                                         
   result.value = mul(previousResult, currentValue)
+
+  See final image attached for pictorial view of project
